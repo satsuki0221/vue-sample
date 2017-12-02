@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "module": "es2015",
+    "target": "es5",
+    "sourceMap": true,
+    "strict": true,
+    // import Vue from 'vue'をするため
+    "allowSyntheticDefaultImports": true,
+    // モジュールの解決方法を変更するため
+    "moduleResolution": "node",
+    // Thisを推論させるため
+    "noImplicitThis": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
